@@ -1,0 +1,69 @@
+/* Contact Us Container */
+.contact-us-container {
+    font-family: "Montserrat", sans-serif;
+    color:#df1c1c;
+    background-color: white;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+/* Header Section */
+.contact-us-header {
+    text-align: center;
+    background-color: white;
+}
+
+.contact-us-header h1 {
+    font-size: 2.5rem;
+    color: #df1c1c;
+    margin-bottom: 0.5rem;
+}
+
+/* Content Section */
+.contact-us-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+}
+
+/* Image Section */
+.contact-us-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Section */
+.contact-us-text {
+    flex: 1;
+    max-width: 600px;
+}
+
+.contact-us-text h2 {
+    color: #df1c1c;
+    margin-bottom: 0.5rem;
+}
+
+.contact-us-text p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-us-content {
+        flex-direction: column;
+    }
+
+    .contact-us-header h1 {
+        font-size: 2rem;
+    }
+
+    .contact-us-header p {
+        font-size: 1rem;
+    }
+}

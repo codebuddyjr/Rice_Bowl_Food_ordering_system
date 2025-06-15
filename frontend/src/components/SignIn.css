@@ -1,0 +1,91 @@
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1000;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .signin-modal {
+    position: relative;
+    height: 600px;
+    width: 400px;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 1100;
+  }
+  
+  .signin-form h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #000; 
+  }
+  
+  .signin-form input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .password-field {
+    position: relative;
+  }
+  
+  .password-field input {
+    padding-right: 4rem;
+  }
+  
+  .show-password {
+    position: absolute;
+    right: 10px;
+    top: 35%;
+    transform: translateY(-50%);
+    font-size: 0.9rem;
+    color: #df1c1c;
+    cursor: pointer;
+  }
+  
+  .signin-button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #df1c1c; 
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .signin-button:hover {
+    background-color: black;
+  }
+  
+  .signup-text {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .signup-text a {
+    color: #df1c1c; /* Primary red */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signup-text a:hover {
+    text-decoration: underline;
+  }
+  
